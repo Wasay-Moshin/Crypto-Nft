@@ -155,9 +155,10 @@ body {
 .menu{
   background-color: #0b1426 !important;
   color: white!important;
-  border: none;
-  width: 100%;
-  height: fixed;
+  border: none !important;
+  width: 100% !important;
+  height: 500px !important;
+  overflow-y: scroll !important;
 }
 .lkTtqM{
   background-color: transparent !important;
@@ -176,3 +177,13 @@ body {
 .gnJkew:hover{
   background-color:none !important;
 }
+
+// .sidebar{
+//   width: 80%;
+//   height: 500px;
+//   overflow-y: scroll;
+//   position: fixed;
+//   max-width: 250px;
+//   margin-left: 30px;
+//   border-right: 2px solid #0b6a0e;
+// }
