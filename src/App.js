@@ -1,15 +1,25 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import './App.scss';
-import Header from "./Component/Layouts/Header";
-import Hero from "./Component/Elements/Hero";
-import Sidemenu from "./Component/Layouts/Sidemenu";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+// import Cards from "./Component/Elements/Cards";
+import Content1 from "./Component/Elements/Content1";
+import Base from "./Component/Layouts/Base";
 function App() {
   return (
     <div>
-   <Header/>
-   <Hero/>
-   <Sidemenu/>
+  <>
+        <BrowserRouter>
+          <Base>
+            <Routes>
+              <Route index path="/" element={<Home/>} />
+              <Route path="/content1" element={<Content1/>} />
+            </Routes>
+          </Base>
+        </BrowserRouter>
+      </>
+ 
     </div>
   );
 }
