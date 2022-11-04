@@ -6,8 +6,8 @@ function Cards() {
       <div className="container">
         <div className="row mb-5">
           <div className="col-md-4">
-            <Link className="card" to="/content1">
-              <img src="Assets/c1.gif" className="card-img-top" alt="..." />
+            <div className="card">
+              <Link to="/content1"><img src="Assets/c1.gif" className="card-img-top" alt="..." /></Link>
               <div className="card-body">
                 <div className="cb">
                   <img className="c1-img" src="Assets/c1-img.png" alt="" />
@@ -32,11 +32,11 @@ function Cards() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src="Assets/c2.gif" className="card-img-top" alt="..." />
+             <Link to="/content2"> <img src="Assets/c2.gif" className="card-img-top" alt="..." /></Link>
               <div className="card-body">
                 <div className="cb">
                   <img className="c1-img" src="Assets/c1-img.png" alt="" />
@@ -65,7 +65,7 @@ function Cards() {
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src="Assets/c3.jpeg" className="card-img-top" alt="..." />
+             <Link to="/content3"> <img src="Assets/c3.jpeg" className="card-img-top" alt="..." /></Link>
               <div className="card-body">
                 <div className="cb">
                   <img className="c1-img" src="Assets/c3-img.gif" alt="" />

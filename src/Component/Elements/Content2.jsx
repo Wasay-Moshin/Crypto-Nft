@@ -1,12 +1,13 @@
-import React from "react";
-function Content1() {
+import React from 'react'
+
+function Content2() {
   return (
-    <div className="content1">
-      <div className="container mt-5 mb-5">
+    <div className='content1'>
+       <div className="container mt-5 mb-5">
         <div className="row">
           <div className="col-md-4">
             <div>
-              <img className="img-fluid" src="Assets/c1.gif" alt="" />
+              <img className="img-fluid" src="Assets/c2.gif" alt="" />
             </div>
             <div className="card mt-3">
               <p>
@@ -245,7 +246,8 @@ function Content1() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Content1;
+export default Content2
+

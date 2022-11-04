@@ -306,6 +306,7 @@ body {
 }
 .content1{
   padding-top: 90px;
+  padding-bottom: 120px;
   background-color: white;
   padding-bottom: 30px;
   .img-fluid{
@@ -321,4 +322,67 @@ body {
   .hrt{
     display: flex;
   }
+  .tick{
+    margin-top: 30px;
+    margin-left: -10px;
+  }
+  .card1{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    code{
+      color: black;
+    }
+    span{
+      color: #999DA4;
+    }
+    .border{
+      border-radius: 50%;
+    }
+  }
+  h1{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .vr{
+    height: 80px;
+    width: 1px !important;
+  }
+  p{
+    font-size: 14px;
+  }
+  strong{
+    font-size: 25px;
+  }
+  .badge{
+    background-color: transparent !important;
+    color:#999DA4 !important;
+    border: 1px solid grey !important;
+    border-radius:10px !important;
+    font-weight: 500;
+  }
+  .celebrate{
+    h6{
+      font-size: 17px;
+      font-weight: 400;
+    }
+    p{
+      border: 1px solid #1199fa;
+      border-radius: 4px;
+      color: #1199fa;
+      padding: 10px 5px;
+      text-transform: capitalize;
+      margin-right: 10px;
+    }
+  }
+ .dp{
+  border-radius: 50%;
+ }
+ .code{
+  margin-top: 15px;
+  margin-left: 90px;
+  code{
+    color: #999DA4;
+  }
+ }
 }
