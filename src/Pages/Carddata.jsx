@@ -1,13 +1,16 @@
-import React from 'react'
-
-function Content2() {
+import React from "react";
+import { useLocation } from "react-router-dom";
+import { IoIosArrowBack } from "react-icons/io";
+import { Link } from "react-router-dom";
+function Carddata() {
+  const { state } = useLocation();
   return (
-    <div className='content1'>
-       <div className="container mt-5 mb-5">
-        <div className="row">
+    <div className="content1">
+      <div className="container mt-5 mb-5">
+        <div className="row ">
           <div className="col-md-4">
             <div>
-              <img className="img-fluid" src="Assets/c2.gif" alt="" />
+              <img className="img-fluid" src={state.img} alt="" />
             </div>
             <div className="card mt-3">
               <p>
@@ -23,18 +26,28 @@ function Content2() {
             </div>
           </div>
           <div className="col-md-8">
+            <div>
+              <Link to="/">
+                {" "}
+                <button className="back-btn">
+                  {" "}
+                  <IoIosArrowBack size={"15px"} color=" #1199faFF" />
+                  Back
+                </button>
+              </Link>
+            </div>
             <div className="hrt">
               <p>
-                <img src="Assets/heart.svg" alt="" /> &nbsp; 0
+                <img src={"Assets/heart.svg"} alt="" /> &nbsp; 0
               </p>
 
               <p>
                 {" "}
-                <img src="Assets/eye.svg" alt="" /> &nbsp; 87
+                <img src="Assets/eye.svg" alt="" /> &nbsp;87
               </p>
               <p>
                 <img src="Assets/share.svg" alt="" />
-                &nbsp; share
+                &nbsp;share
               </p>
             </div>
             <div className="px-3">
@@ -97,7 +110,7 @@ function Content2() {
             </div>
             <div className="row">
               <div className="col-md-8  mt-5 px-3">
-                <h1>Cronos World Tour at Messari Mainnet 2022</h1>
+                <h1>{state.name}</h1>
                 <div className="row">
                   <div className="col ">
                     <p>STARTING BID</p>
@@ -226,7 +239,7 @@ function Content2() {
                         </div>
                       </div>
                       <div className="code">
-                        <span style={{color:"blue"}}>View Details</span>
+                        <span style={{ color: "blue" }}>View Details</span>
                       </div>
                     </div>
                   </div>
@@ -245,9 +258,25 @@ function Content2() {
           </div>
         </div>
       </div>
+      <div className="container ">
+        <div className="row">
+          <div className="col">
+            <div className="card card2 px-3 py-3">
+                <div className=" d-flex justify-content-between">
+                    <div className="d-flex">
+                    <img className="crd-img" src={state.img2} alt="" width={"60px"} /> &nbsp;&nbsp;&nbsp;
+                    <h1>{state.name}</h1>
+                    </div>
+                    <div><button className="text-end b1"> Buy For $1000</button></div>
+                    
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Content2
-
+export default Carddata;

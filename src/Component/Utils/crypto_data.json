@@ -1,0 +1,111 @@
+[
+  {
+    "id": "1",
+    "author": "Cryptoverse",
+    "avatar": "/Assets/c1-img.png",
+    "img": "/Assets/c1.gif",
+    "name": "Cronos World Tour",
+    "type": ["crypto", "Crypto.org Chain"],
+    "status": "53/381 for sale",
+    "offer": "Buy",
+    "price": 36,
+    "img2": "/Assets/c1.gif"
+  },
+  {
+    "id": "2",
+    "author": "Cryptoverse",
+    "avatar": "/Assets/c1-img.png",
+    "img": "/Assets/c2.gif",
+    "name": "Agent SHIB",
+    "type": ["crypto", "Crypto.org Chain"],
+    "status": "1.6k/8.5k for sale",
+    "offer": "Buy",
+    "price": 19,
+    "img2": "/Assets/c2.gif"
+  },
+  {
+    "id": "3",
+    "author": "Bad Billy Goats",
+    "avatar": "/Assets/c3-img.gif",
+    "img": "/Assets/c3.jpeg",
+    "img2": "/Assets/c3.jpeg",
+    "name": "Bad Billy Goats #4342",
+    "type": ["coronos", "coronos"],
+    "status": "53/381 for sale",
+    "offer": "Bid",
+    "price": 29
+
+  },
+  {
+    "id": "4",
+    "author": "Nifty Nanas",
+    "avatar": "/Assets/c1-img.png",
+    "img": "/Assets/c4.png",
+    "img2": "/Assets/c4.png",
+    "name": "Cronus Nana #3243",
+    "type": ["coronos", "coronos"],
+    "status": "1 minuted",
+    "offer": "Buy",
+    "price": 19
+  },
+  {
+    "id": "5",
+    "author": "CROMMY",
+    "avatar": "/Assets/c1-img.png",
+    "img": "/Assets/c5.png",
+    "img2": "/Assets/c5.png",
+    "name": "Cute Mummy #1568",
+    "type": ["coronos", "coronos"],
+    "status": "1 minuted",
+    "offer": "Buy",
+    "price": 19
+  },
+  {
+    "id": "6",
+    "author": "CROCOSNFT",
+    "avatar": "/Assets/c3-img.gif",
+    "img": "/Assets/c6.jpeg",
+    "img2": "/Assets/c6.jpeg",
+    "name": "Helkman",
+    "type": ["coronos", "coronos"],
+    "status": "53/381 for sale",
+    "offer": "Buy",
+    "price": 45
+  },
+  {
+    "id": "7",
+    "author": "Zombabies",
+    "avatar": "/Assets/c1-img.png",
+    "img": "/Assets/c1.gif",
+    "img2": "/Assets/c1.gif",
+    "name": "Zombabies",
+    "type": ["coronos", "coronos"],
+    "status": "1 miunted",
+    "offer": "Buy",
+    "price": 29
+  },
+  {
+    "id": "8",
+    "author": "TMK CUSTOMS",
+    "avatar": "/Assets/c1-img.png",
+    "img": "/Assets/c8.png",
+    "img2": "/Assets/c8.png",
+    "name": "BoredApeYachtClub",
+    "type": ["coronos", "coronos"],
+    "status": "90/433 for sale",
+    "offer": "Buy",
+    "price": 20
+  },
+  {
+    "id": "9",
+    "author": "TMK CUSTOMS",
+    "avatar": "/Assets/c1-img.png",
+    "img": "/Assets/c9.png",
+    "img2": "/Assets/c9.png",
+    "name": "TMK WOLFFIE",
+    "type": ["coronos", "coronos"],
+    "status": "53/381 for sale",
+    "offer": "Buy",
+    "price": 10
+  }
+]

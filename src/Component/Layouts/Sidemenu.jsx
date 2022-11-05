@@ -17,7 +17,10 @@ function Sidemenu() {
             <ProSidebarProvider>
               <Sidebar>
                 <Menu>
-                  <h3>Filter</h3>
+                  <div className="d-flex justify-content-between "  style={{marginRight: "5px"}}>
+                  <h4>Filter</h4>
+                  <img className="menu-img" src="Assets/menu.svg" alt="" />
+                  </div>
                   <SubMenu label="Listing Type">
                     <MenuItem>
                       <input type="checkbox" /> Buy Now{" "}
@@ -177,9 +180,7 @@ function Sidemenu() {
                   </SubMenu>
                 </Menu>
               </Sidebar>
-              ;
             </ProSidebarProvider>
-            ;
           </div>
           <div className="col-md-8">
             <Cards />
