@@ -6,7 +6,7 @@ function Cards() {
   return (
     <div className="cards">
       <div className="container">
-        <div className="row mb-5">
+        <div className="row mb-5 ">
           {data.map(i=>(<div className="col-md-4 py-3" onClick={()=>navigate("/carddata", {state:i})}>
             <div className="card">
               <img src={i.img} className="card-img-top" alt="..." />

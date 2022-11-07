@@ -6,7 +6,7 @@ function Carddata() {
   const { state } = useLocation();
   return (
     <div className="content1">
-      <div className="container mt-5 mb-5">
+      <div className="container mt-5 ">
         <div className="row ">
           <div className="col-md-4">
             <div>
@@ -210,8 +210,12 @@ function Carddata() {
                         </div>
                       </div>
                       <div className="code">
-                        <code>cro100w8yz03qn4s8n...</code>
-                        <img src="Assets/copy2.svg" alt="" />
+                        <code>cro1nh98n4..</code>
+                        <img
+                          className="img-fluid"
+                          src="Assets/copy2.svg"
+                          alt=""
+                        />
                       </div>
                     </div>
                   </div>
@@ -257,20 +261,25 @@ function Carddata() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="container ">
-        <div className="row">
-          <div className="col">
-            <div className="card card2 px-3 py-3">
-                <div className=" d-flex justify-content-between">
-                    <div className="d-flex">
-                    <img className="crd-img" src={state.img2} alt="" width={"60px"} /> &nbsp;&nbsp;&nbsp;
-                    <h1>{state.name}</h1>
-                    </div>
-                    <div><button className="text-end b1"> Buy For $1000</button></div>
-                    
-                </div>
-
+        <div className="col mt-4">
+          <div className="card card2 px-3 py-3">
+            <div className=" d-flex justify-content-between">
+              <div className="d-flex">
+                <img
+                  className="crd-img"
+                  src={state.img2}
+                  alt=""
+                  width={"60px"}
+                />{" "}
+                &nbsp;&nbsp;&nbsp;
+                <h3>{state.name}</h3>
+              </div>
+              <div>
+                <button className="jusify-content-end b1">
+                  {" "}
+                  Buy For $1000
+                </button>
+              </div>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg fixed-top">
+      <nav className="navbar navbar-expand-lg fixed-top ">
         <div className="container">
           <a className="navbar-brand" href="/">
             <img src="Assets/logo.svg" alt=""></img>

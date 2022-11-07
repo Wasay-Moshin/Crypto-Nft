@@ -8,18 +8,26 @@ import {
 } from "react-pro-sidebar";
 import Cards from "../Elements/Cards";
 import { FaSearch } from "react-icons/fa";
+import Drawer from "../Elements/Drawer";
 function Sidemenu() {
   return (
     <div className="sidemenu">
       <div className="container-fluid mt-5 ">
-        <div className="row">
-          <div className="col-md-4">
+        <div className=" sticky">
+          <h4>Explore</h4>
+        </div>
+        <div className="row ">
+          <div className="col-md-3">
+            {/* <Drawer/> */}
             <ProSidebarProvider>
-              <Sidebar>
+              <Sidebar className="sticky1">
                 <Menu>
-                  <div className="d-flex justify-content-between "  style={{marginRight: "5px"}}>
-                  <h4>Filter</h4>
-                  <img className="menu-img" src="Assets/menu.svg" alt="" />
+                  <div
+                    className="d-flex justify-content-between "
+                    style={{ marginRight: "5px" }}
+                  >
+                    <h4>Filter</h4>
+                    <img className="menu-img" src="Assets/menu.svg" alt="" />
                   </div>
                   <SubMenu label="Listing Type">
                     <MenuItem>
@@ -182,7 +190,91 @@ function Sidemenu() {
               </Sidebar>
             </ProSidebarProvider>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-9 sticky">
+            <div className="row sticky">
+            <div className="d-flex justify-content-end ">
+              <div className="dropdown">
+                <a
+                  className="btn btn-secondary dropdown-toggle"
+                  href="/"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="Assets/sort.svg" alt="" width={"20px"} />
+                  &nbsp; Sort By
+                </a>
+                <ul
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuLink"
+                >
+                  <li>
+                    <a className="dropdown-item" href="/">
+                      <b>Most Relevant</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/">
+                      <b>Recently Listed</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/">
+                      <b> Newest</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/">
+                      <b> Price: Low to High</b>
+                    </a>
+                  </li>{" "}
+                  <li>
+                    <a className="dropdown-item" href="/">
+                      <b> Price: High to Low</b>
+                    </a>
+                  </li>{" "}
+                  <li>
+                    <a className="dropdown-item" href="/">
+                      <b>Auction Ending Soon</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/">
+                      <b>Most Like</b>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="btn-group"
+                role="group"
+                aria-label="Basic radio toggle button group"
+              >
+                <input
+                  type="radio"
+                  className="btn-check"
+                  name="btnradio"
+                  id="btnradio1"
+                  autoComplete="off"
+                  defaultChecked
+                />
+                <label className="btn btn-outline-primary" htmlFor="btnradio1">
+                  <img src="Assets/fourbox.svg" alt="" width={"23px"} />
+                </label>
+                <input
+                  type="radio"
+                  className="btn-check"
+                  name="btnradio"
+                  id="btnradio2"
+                  autoComplete="off"
+                />
+                <label className="btn btn-outline-primary" htmlFor="btnradio2">
+                <img src="Assets/boxes.svg" alt="" width={"25px"}  />
+                </label>
+              </div>
+            </div>
+            </div>
             <Cards />
           </div>
         </div>
