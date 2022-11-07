@@ -8,7 +8,6 @@ import {
 } from "react-pro-sidebar";
 import Cards from "../Elements/Cards";
 import { FaSearch } from "react-icons/fa";
-import Drawer from "../Elements/Drawer";
 function Sidemenu() {
   return (
     <div className="sidemenu">
@@ -18,7 +17,6 @@ function Sidemenu() {
         </div>
         <div className="row ">
           <div className="col-md-3">
-            {/* <Drawer/> */}
             <ProSidebarProvider>
               <Sidebar className="sticky1">
                 <Menu>
